@@ -261,6 +261,10 @@ export NOOBS_DESCRIPTION
 export EXPORT_DIR
 export EXPORT_ROOTFS_DIR
 
+# Export custom variables
+export GH_USER
+export GH_PASS
+
 export QUILT_PATCHES
 export QUILT_NO_DIFF_INDEX=1
 export QUILT_NO_DIFF_TIMESTAMPS=1
