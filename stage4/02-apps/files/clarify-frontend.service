@@ -1,0 +1,16 @@
+[Unit]
+Description=Clarify frontend process
+Wants=clarify-backend.service
+Requires=graphical.target
+After=graphical.target
+
+[Service]
+Type=exec
+Restart=always
+RestartSec=1
+User=clarify
+WorkingDirectory=/opt/mirror-frontend
+ExecStart=/usr/bin/env npm run dev
+
+[Install]
+WantedBy=default.target

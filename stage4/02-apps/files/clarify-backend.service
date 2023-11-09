@@ -1,0 +1,14 @@
+[Unit]
+Description=Clarify backend process
+Wants=redis-server.service
+
+[Service]
+Type=exec
+Restart=always
+RestartSec=1
+User=clarify
+WorkingDirectory=/opt/mirror-backend
+ExecStart=/usr/bin/env python3 /opt/mirror-backend/main.py
+
+[Install]
+WantedBy=multi-user.target
