@@ -11,6 +11,9 @@ RestartSec=1
 User=clarify
 WorkingDirectory=/opt/mirror-frontend
 ExecStart=/usr/bin/env npm run dev
+# Xorg envvars
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/clarify/.Xauthority
 
 [Install]
 WantedBy=default.target
