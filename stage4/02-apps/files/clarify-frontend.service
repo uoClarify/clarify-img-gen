@@ -10,7 +10,7 @@ Restart=always
 RestartSec=1
 User=clarify
 WorkingDirectory=/opt/mirror-frontend
-ExecStart=/usr/bin/env npm run dev
+ExecStart=/opt/mirror-frontend/clarify
 # Xorg envvars
 Environment=DISPLAY=:0
 Environment=XAUTHORITY=/home/clarify/.Xauthority
