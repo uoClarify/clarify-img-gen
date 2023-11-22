@@ -264,6 +264,8 @@ export EXPORT_ROOTFS_DIR
 # Export custom variables
 export GH_USER
 export GH_PASS
+export PICOVOICE_KEY
+export GOOGLE_API_KEY
 
 export QUILT_PATCHES
 export QUILT_NO_DIFF_INDEX=1

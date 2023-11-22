@@ -8,3 +8,4 @@ SKIP_IMAGES
 *-pc
 apt-cacher-ng/
 **/frontend.zip
+**/stt-account-key.json

@@ -6,7 +6,7 @@ Wants=redis-server.service
 Type=exec
 Restart=always
 RestartSec=1
-User=clarify
+User=root
 WorkingDirectory=/opt/mirror-backend
 ExecStart=/usr/bin/env python3 /opt/mirror-backend/main.py
 
