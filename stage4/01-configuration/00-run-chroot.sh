@@ -22,4 +22,3 @@ echo "blacklist snd_bcm2835" > /etc/modprobe.d/snd-blacklist.conf
 
 # Set card 2 as default output (card0:hdmi0, card1:hdmi1, card2:usb)
 echo "options snd-usb-audio index=2" > /etc/modprobe.d/alsa-base.conf
-echo -e "defaults.pcm.card 2\ndefaults.ctl.card 2" > /etc/asound.conf
