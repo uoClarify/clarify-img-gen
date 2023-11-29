@@ -12,5 +12,5 @@ sed -i "s/GOOGLE_API_KEY=CHANGE/GOOGLE_API_KEY=${GOOGLE_API_KEY}/" /opt/mirror-b
 sed -i "s/SPOTIFY_CLIENT_ID=CHANGE/SPOTIFY_CLIENT_ID=${SPOTIFY_CLIENT_ID}/" /opt/mirror-backend/.env
 sed -i "s/SPOTIFY_CLIENT_SECRET=CHANGE/SPOTIFY_CLIENT_SECRET=${SPOTIFY_CLIENT_SECRET}/" /opt/mirror-backend/.env
 sed -i "s/OWM_API_KEY=CHANGE/OWM_API_KEY=${OWM_API_KEY}/" /opt/mirror-backend/.env
-sed -i "s/OPENAI_API_KEY=CHANGE/x=${x}/" /opt/mirror-backend/.env
+sed -i "s/OPENAI_API_KEY=CHANGE/OPENAI_API_KEY=${OPENAI_API_KEY}/" /opt/mirror-backend/.env
 EOF
